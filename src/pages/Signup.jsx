@@ -37,8 +37,8 @@ if (loading) {
   return(
 <div>
   <Header/>
-  <main> 
-  <h2>Loading <i class="fa-solid fa-yin-yang fa-spin fa-lg" style={{color: "#1b1b1d;"}}></i></h2>
+  <main className='color-loading'> 
+  <h2 className='loadingCss'>Loading <i className="fa-solid fa-yin-yang fa-spin fa-lg ali" style={{color: "#1b1b1d;"}}></i></h2>
   </main>
   <Footer/>
 </div>

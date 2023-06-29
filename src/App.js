@@ -8,12 +8,12 @@ import {useContext } from "react";
 import ThemeContext from "./context/ThemeContext";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
-
+import Error404 from './pages/Error404';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    errorElement: <h1>SORRY.........</h1>,
+    errorElement: <Error404/>,
   },
   {
     path: "/signin",
